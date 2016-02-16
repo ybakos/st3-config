@@ -70,5 +70,12 @@
         "layer0.tint": [33, 33, 33],
         "layer0.opacity": 1.0,
         "dark_content": false
+    },
+    {
+        "class": "panel_control",
+        "layer0.texture": "Theme - Soda/Soda Dark/panel-background.png",
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, -3, 0, -4]
     }
 ]
