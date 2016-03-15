@@ -1,0 +1,5 @@
+{
+  "selector": "text.html",
+  "shell": "true",
+  "cmd": ["open \"$file\""]
+}
