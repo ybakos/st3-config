@@ -4,7 +4,7 @@
 	"color_scheme": "Packages/User/Color Schemes/base16-tomorrow.dark.tmTheme",
 	"draw_white_space": "none",
 	"font_face": "Monaco",
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -15,5 +15,6 @@
 	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"overlay_scroll_bars": "enabled"
 }
