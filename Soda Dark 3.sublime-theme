@@ -36,17 +36,20 @@
         "color": [176, 176, 188],
         "font.bold": true,
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [-1, 1]
     },
     {
         "class": "sidebar_label",
         "color": [160, 160, 160],
-        "font.bold": false
+        "font.bold": false,
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [190, 190, 190]
+        "color": [190, 190, 190],
+        "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
