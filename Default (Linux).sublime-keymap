@@ -1,4 +1,7 @@
 [
+  { "keys": ["ctrl++"], "command": "increase_font_size" },
+  { "keys": ["ctrl+="], "command": "increase_font_size" },
+  { "keys": ["ctrl+-"], "command": "decrease_font_size" },
   { "keys": ["super+c"], "command": "copy" },
   { "keys": ["super+x"], "command": "cut" },
   { "keys": ["super+v"], "command": "paste" },
