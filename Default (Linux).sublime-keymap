@@ -1,0 +1,23 @@
+[
+  { "keys": ["ctrl++"], "command": "increase_font_size" },
+  { "keys": ["ctrl+="], "command": "increase_font_size" },
+  { "keys": ["ctrl+-"], "command": "decrease_font_size" },
+  { "keys": ["super+c"], "command": "copy" },
+  { "keys": ["super+x"], "command": "cut" },
+  { "keys": ["super+v"], "command": "paste" },
+  { "keys": ["super+s"], "command": "save" },
+  { "keys": ["super+shift+v"], "command": "paste_and_indent" },
+  { "keys": ["super+z"], "command": "undo" },
+  { "keys": ["super+shift+z"], "command": "redo" },
+  { "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+  { "keys": ["ctrl+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+  { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["ctrl+d"], "command": "right_delete" },
+  { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+  { "keys": ["alt+a"], "command": "select_all" },
+  { "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+]
