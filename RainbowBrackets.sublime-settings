@@ -1,0 +1,23 @@
+/*
+  RainbowBrackets user settings in here override the default
+*/
+{
+  "languages": {
+    "ruby": {
+      "mode": "all",
+      "extensions": ["rb"]
+    }
+  },
+  "rainbow_colors": {
+        "matched": [
+            "#a5a8a6",
+            "#b294bb",
+            "#81a2be",
+            "#8abeb7",
+            "#b5bd68",
+            "#f0c674",
+            "#de935f"
+        ],
+        "unmatched": "#cc6666"
+    }
+}
