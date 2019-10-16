@@ -1,5 +1,10 @@
 [
     {
+        "class": "title_bar",
+        "fg": [150, 150, 150],
+        "bg": [40, 40, 40]
+    },
+    {
         "class": "icon_file_type",
         "content_margin": [0,0]
     },
