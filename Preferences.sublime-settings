@@ -2,9 +2,10 @@
 	"always_show_minimap_viewport": true,
 	"caret_style": "smooth",
 	"color_scheme": "Packages/User/Color Schemes/base16-tomorrow.dark.tmTheme",
+	"drag_text": false,
 	"draw_white_space": "none",
 	"font_face": "Monaco",
-	"font_size": 10,
+	"font_size": 19,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -12,10 +13,13 @@
 		"Vintage"
 	],
 	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		80
+	],
 	"show_full_path": true,
 	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"rulers": [80]
+	"trim_trailing_white_space_on_save": true
 }
