@@ -1,5 +1,10 @@
 [
     {
+        "class": "title_bar",
+        "fg": [150, 150, 150],
+        "bg": [40, 40, 40]
+    },
+    {
         "class": "icon_file_type",
         "content_margin": [0,0]
     },
@@ -36,17 +41,20 @@
         "color": [176, 176, 188],
         "font.bold": true,
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [-1, 1]
     },
     {
         "class": "sidebar_label",
         "color": [160, 160, 160],
-        "font.bold": false
+        "font.bold": false,
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [190, 190, 190]
+        "color": [190, 190, 190],
+        "shadow_offset": [0, 0]
     },
     {
         "class": "sidebar_label",
@@ -77,5 +85,37 @@
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "content_margin": [0, -3, 0, -4]
+    },
+    {
+      "class": "popup_control",
+      "layer0.tint": [0, 0, 0, 150],
+      "layer0.opacity": 0.5,
+      "content_margin": [0, 0]
+    },
+    {
+      "class": "auto_complete",
+      "row_padding": [2, 2],
+      "layer0.tint": [33, 33, 33],
+      "layer0.opacity": 0.5
+    },
+    {
+      "class": "auto_complete_label",
+      "fg": [100, 100, 100, 255],
+      "match_fg": [100, 125, 100, 255],
+      "selected_fg": [200, 200, 200, 255],
+      "selected_match_fg": [128, 255, 128, 255]
+    },
+    // {
+    //   "class": "table_row",
+    //   "layer0.tint": [97, 97, 97],
+    //   "layer0.opacity": 1.0,
+    // },
+    {
+      "class": "table_row",
+      "layer0.tint": [97, 200, 97],
+      "attributes": ["selected"],
+      "layer0.opacity": 1.0
     }
+
+
 ]
