@@ -1,0 +1,6 @@
+[
+  { "keys": ["super+alt+["], "command": "focus_neighboring_group", "args": {"forward": false} },
+  { "keys": ["super+alt+]"], "command": "focus_neighboring_group" },
+  { "keys": ["super+alt+shift+["], "command": "move_to_neighboring_group", "args": {"forward": false} },
+  { "keys": ["super+alt+shift+]"], "command": "move_to_neighboring_group" },
+]
